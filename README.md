@@ -2,6 +2,7 @@
 
 This repository contains an example of an online store application built with the Streamlit library. The app allows users to view a list of products, add new products to the store, and view the 10 most recently added products. The app uses a MySQL database hosted on AWS RDS to store the product data. Also, the Confluent Kafka was use to data streaming. Use Terraform to deploy and manage Confluent infrastructure
 
+![text](datapipeline.png "Data Pipeline")
 ## Dependencies
 * streamlit
 * PyMySQL
