@@ -26,11 +26,11 @@ This repository contains an example of an online store application built with th
 You need to set up a MySQL server on Amazon RDS
 To start the Streamlit app, run:
 `cd app && streamlit run app.py`
-To deploy the Conluent infrastructure, run:
+To deploy the Confluent infrastructure, run:
 * `terraform init`
 * `terraform apply`
 
-Remember to destroy the Conluent infrastructure if not use, run:
+Remember to destroy the Confluent infrastructure if not use, run:
 * `terraform destroy`
 
 ## Configuration
